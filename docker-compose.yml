@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  lab1:
+    builds:
+      context: ./lab1
+    container_name: lab1_container
+    image: lab1_image
+    command: ./Lqb1
+    volumes:
+      - ./lab1:/app
+    
