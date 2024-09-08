@@ -10,4 +10,4 @@ COPY . .
 # Compiles the code for us 
 RUN g++ main.cpp greetings.cpp -o Lab1
 
-CMD ["/bin/bash", "./Lab1"]
+CMD ["/bin/bash"]

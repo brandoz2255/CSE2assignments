@@ -10,7 +10,7 @@ COPY . .
 # Compiles the code for us 
 RUN g++ -o magic magic.cpp magicMain.cpp
 
-CMD ["/bin/bash", "./Lab1"]
+CMD ["/bin/bash"]
 
 
 

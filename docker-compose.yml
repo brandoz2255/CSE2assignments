@@ -1,21 +1,24 @@
-version: '3.8'
+
 
 services:
   lab1:
     build:               
-      context: ./lab1
+      context: ./Lab1
+      dockerfile: Dockerfile
     container_name: lab1_container
     image: lab1_image
-    command: ./Lab1
     volumes:
-      - ./lab1:/app
+      - ./Lab1:/app
+    tty: true
+    stdin_open: true
 
   homework1:
     build:              
-      context: ./magic
+      context: ./homework1
+      dockerfile: Dockerfile.hw
     container_name: home_work1
     image: home_work_image
-    command: ./magic
     volumes:
       - ./homework1:/app
-      
+    tty: true
+    stdin_open: true
