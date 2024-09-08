@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   lab1:
-    builds:
+    build:               
       context: ./lab1
     container_name: lab1_container
     image: lab1_image
@@ -11,13 +11,11 @@ services:
       - ./lab1:/app
 
   homework1:
-    builds:
+    build:              
       context: ./magic
     container_name: home_work1
     image: home_work_image
     command: ./magic
     volumes:
       - ./homework1:/app
-
-
-    
+      
