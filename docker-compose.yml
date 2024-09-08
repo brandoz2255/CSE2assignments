@@ -9,6 +9,7 @@ services:
     command: ./Lab1
     volumes:
       - ./lab1:/app
+
   homework1:
     builds:
       context: ./magic
@@ -16,7 +17,7 @@ services:
     image: home_work_image
     command: ./magic
     volumes:
-      -./homework1:/app
+      - ./homework1:/app
 
 
     
