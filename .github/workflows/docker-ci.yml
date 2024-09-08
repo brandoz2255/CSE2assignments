@@ -17,8 +17,8 @@ jobs:
           sudo apt-get install -y docker-compose
       
       - name: Build Docker Compose 
-        run: docker-compose up --build
-        
+        run: docker compose up --build
+
       - name: Checkout code
         uses: actions/checkout@v2
 
