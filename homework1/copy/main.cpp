@@ -3,6 +3,21 @@
 #include <cassert>
 #include <vector>
 
+
+/**
+ * Ok the first three screenshots are from doing 7 
+ * The second two are from 11 and the last two are from 15 
+ * I also made the Magic squares on my own with the summ in  it but i used this one in the class 
+ * you provided since I didnt know where your ok with us modifying the code so 
+ * I kept the original and am submitting this one
+ * 
+ * ps : if you are wondering why my terminal looks weird I customized it like heavily....
+ * 
+ * Also 
+ * 
+ * 
+ *  */ 
+
 using namespace std;
 
 pair<int, int> wrap(int, int, int);
@@ -159,4 +174,6 @@ int main() {
     print_magic(magicSQ);
 
     return 0;
+
+
 }
