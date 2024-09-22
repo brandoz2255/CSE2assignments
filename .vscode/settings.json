@@ -2,6 +2,7 @@
     "files.associations": {
         "iomanip": "cpp",
         "stdexcept": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "vector": "cpp"
     }
 }
