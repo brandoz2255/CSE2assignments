@@ -22,3 +22,25 @@ services:
       - ./homework1:/app
     tty: true
     stdin_open: true
+
+  Lab2:
+    build:
+      context: ./Lab2
+      Dockerfile: Dockerfile
+    container_name: Lab2_work
+    image: Lab2_image
+    volumes:
+      - ./Lab2:/app
+    tty: true
+    stdin_open: true
+
+  Lab3:
+    build:
+      context: ./Lab3
+      Dockerfile: Dockerfile
+    container_name: Lab3_work
+    image: Lab3_image
+    volumes:
+      - ./Lab3:/app
+    tty: true
+    stdin_open: true
